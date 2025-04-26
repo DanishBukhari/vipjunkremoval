@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sofax-features-content ul, .sofax-accordion-body ul, .sofax-default-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+.sofax-features-content p, .sofax-accordion-body p, .sofax-default-content p {
+    margin-bottom: 1rem;
+}
+.header-three-btn {
+    position: relative;
+    z-index: 1000;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}

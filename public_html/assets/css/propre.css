@@ -1,0 +1,94 @@
+a#customerServiceAnchor {
+    /* text-decoration: underline!important; */
+    color: #00539E !important;
+    font-size: medium;
+}
+
+.selectOptionsHowHelpU {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selectOptionsHowHelpUsignle {
+    display: flex
+;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 36px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.selectOptionsHowHelpUsignle>input {
+    width: 20px;
+    margin-right: 5px;
+}
+.selectOptionsHowHelpUsignle > span {
+    font-size: 24px;
+}
+
+.row.selectOptionWrapper {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.selectedElement {
+    font-weight: bolder;
+    background: #9545f5;
+    color: white;
+}
+.sofax-counter-data-v7 {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+.sofax-counter-data-v7:hover {
+    transform: scale(1.2);
+}
+
+.customcardPricingSection {
+    background: white;
+    border: 1px solid black;
+}
+.btnForm {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(120, 171, 48) !important;
+    border-radius: 17px;
+}
+
+a.btn.dropdown-toggle.profileAvatar {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    margin: 0px;
+}a.btn.dropdown-toggle.profileAvatar:hover {
+     background: #dfedc9;
+ }
+
+ul.dropdown-menu.profileAvatarUls>a {
+    color: black !important;
+}
+ul.dropdown-menu.profileAvatarUls>form>a {
+    color: black !important;
+}
+.nb-form-wrapper {
+    color: white;
+    font-size: 20px;
+}
+#loaderProgress {
+    width: 90px;
+}
+
+.text-danger {
+    color: red;
+    font-size: 14px;
+}
+span.d-app {
+    padding: 7px;
+    background: #75a92a;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
