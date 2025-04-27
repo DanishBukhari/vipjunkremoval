@@ -58,7 +58,7 @@ class BlogPostController extends Controller
 
         if ($request->hasFile('image')) {
             if ($blogPost->image) {
-                Storage::delete('public/' . $blogPost->image);
+                Storage::delete('public_html/' . $blogPost->image);
             }
             $validated['image'] = $request->file('image')->store('blog-images', 'public');
         }
@@ -71,7 +71,7 @@ class BlogPostController extends Controller
     public function destroy(BlogPost $blogPost)
     {
         if ($blogPost->image) {
-            Storage::delete('public/' . $blogPost->image);
+            Storage::delete('public_html/' . $blogPost->image);
         }
         $blogPost->delete();
         return redirect()->route('admin.blog-posts.index')->with('success', 'Blog post deleted successfully.');
